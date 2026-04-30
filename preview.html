@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大雨躲进桃花里</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;600&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #f6f5f2;
+  --text: #2c2c2c;
+  --sub: #7a7a7a;
+  --accent: #b7c4a5;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+}
+
+/* 顶部 */
+header {
+  padding: 100px 20px 60px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "ZCOOL XiaoWei", serif;
+  font-size: 34px;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--sub);
+}
+
+/* 导航 */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 60px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--sub);
+}
+
+nav a:hover {
+  color: var(--text);
+}
+
+/* 容器 */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px 100px;
+}
+
+/* 今日片段 */
+.moment {
+  margin-bottom: 80px;
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.moment p {
+  font-size: 15px;
+  color: #444;
+}
+
+/* 文章 */
+.post {
+  margin-bottom: 60px;
+}
+
+.post h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.meta {
+  font-size: 12px;
+  color: var(--sub);
+  margin-bottom: 12px;
+}
+
+/* 作品区 */
+.work {
+  margin-top: 80px;
+  padding-top: 40px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.work h3 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.work-item {
+  margin-bottom: 24px;
+}
+
+.work-item a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.work-item a:hover {
+  opacity: 0.7;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 12px;
+  color: var(--sub);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>大雨躲进桃花里</h1>
+  <p>
+    一个用来放松、记录、也慢慢靠近自己的地方。<br>
+    有时候写，有时候发呆，有时候只是把一天留下来。
+  </p>
+</header>
+
+<nav>
+  <a href="#">随感</a>
+  <a href="#">碎片</a>
+  <a href="#">练笔</a>
+  <a href="#">作品</a>
+</nav>
+
+<div class="container">
+
+  <!-- 今日片段 -->
+  <div class="moment">
+    <p>
+      下午三点，光从窗帘缝里进来。<br>
+      没有发生什么特别的事，但人是松的。<br>
+      这种时候会觉得，活着也还可以。
+    </p>
+  </div>
+
+  <!-- 随感 -->
+  <div class="post">
+    <h2>关于写东西这件事</h2>
+    <div class="meta">2026 / 04 / 30</div>
+    <p>
+      我开始慢慢接受，有些文字不是为了完成什么。  
+      它只是一个过程，一个让我停下来、看清自己的方式。  
+      如果刚好有人读到，那是额外的事情。
+    </p>
+  </div>
+
+  <div class="post">
+    <h2>今天的一点点情绪</h2>
+    <div class="meta">随感</div>
+    <p>
+      其实没有发生什么。  
+      只是突然意识到，很多执念是自己反复喂养出来的。  
+      一旦停下来，它们就会慢慢变小。
+    </p>
+  </div>
+
+  <!-- 作品区 -->
+  <div class="work">
+    <h3>一些可以公开的东西</h3>
+
+    <div class="work-item">
+      <a href="#">《烟云歌》（节选）</a>
+    </div>
+
+    <div class="work-item">
+      <a href="#">心理访谈记录 · 你为什么爱他？</a>
+    </div>
+
+    <div class="work-item">
+      <a href="#">短篇练笔 · 未命名</a>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  记录我如何成为我
+</footer>
+
+</body>
+</html>
